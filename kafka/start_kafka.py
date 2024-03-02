@@ -14,7 +14,7 @@ try:
  while True:
   time.sleep(1)
 except KeyboardInterrupt:
- print("<<Terminating Kafka Process>>")
+ print(" <<Terminating Kafka Process>>")
  kafka_process.send_signal(signal.SIGINT)
  kafka_process.wait()
  zk_process.send_signal(signal.SIGINT)
