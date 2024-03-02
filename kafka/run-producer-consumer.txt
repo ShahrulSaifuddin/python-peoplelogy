@@ -1,0 +1,7 @@
+using wsl terminal
+- sudo apt install python3-venv (skip if you already installed)
+- python3 -m venv venv
+- source venv/bin/activate (if you are using bash) else .\venv\Scripts\activate
+- pip install confluent_kafka (skip if you already installed)
+- python3 producer.py
+- python3 consumer.py
